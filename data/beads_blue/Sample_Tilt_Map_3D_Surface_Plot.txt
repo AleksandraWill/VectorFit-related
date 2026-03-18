@@ -1,0 +1,11 @@
+Sample_Tilt_Map_3D_Surface_Plot_avg1_blue
+
+figure
+surf(Xq,Yq,Zq,'FaceAlpha',0.7,'EdgeColor','none');
+hold on
+plot3(roixy_combined(1,:)*pixelsizex*1e-3,roixy_combined(2,:)*pixelsizey*1e-3,theta_combined(3,:),"o",'LineWidth',2);
+
+What you see:
+A 3D surface plot of the z-position (tilt) of each bead across the field of view (FOV).
+The surface is interpolated from bead positions and their fitted z-values.
+Dots mark the actual bead locations.

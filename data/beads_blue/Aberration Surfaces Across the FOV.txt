@@ -1,0 +1,14 @@
+Aberration Surfaces Across the FOV (Subplots)
+Code section:
+
+figure('units','normalized','outerposition',[0 0 1 1])
+for izer = 1:size(params.aberrations,1)
+    hsub = subplot(2,3,izer);
+    surf(Xq,Yq,Vq,'FaceAlpha',0.7)
+    plot3(X,Y,V,"o",'LineWidth',3,'MarkerSize',10)
+    ...
+end
+
+What you see:
+A figure with multiple subplots (typically 6, one for each Zernike mode you fit), each showing a 3D surface plot of a particular aberration mode across the FOV.
+The surface represents the spatial variation of that aberration, and dots indicate bead positions.

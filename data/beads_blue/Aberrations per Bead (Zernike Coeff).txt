@@ -1,0 +1,9 @@
+Aberrations per Bead (Zernike Coefficient Plot)
+Code section:
+
+figure
+plot(1:numzers,zernike_coeffs,'k-*','MarkerSize',5)
+
+What you see:
+A line plot showing the fitted Zernike aberration coefficients for all beads.
+The x-axis labels the Zernike modes (n,m), and the y-axis shows the coefficients (in units of mλ).

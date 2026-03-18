@@ -1,0 +1,23 @@
+Summary Table
+Sample Type		Why Present?		What You Show
+Blue, bypass mode	Baseline aberrations	System aberrations for blue
+Red, bypass mode	Baseline aberrations	System aberrations for red
+Blue, split mode	Splitter aberrations	Splitter impact for blue
+Red, split mode		Splitter aberrations	Splitter impact for red
+Blue+Red, split mode	Registration/crosstalk	Channel registration and crosstalk
+
+Best Practice for Thesis Figures
+
+Show both bypass and split mode for each excitation:
+This lets the reader see the change in aberrations introduced by the splitter.
+
+If space/time limited, prioritize split mode:
+If your thesis is focused on splitter characterization, split mode results are most critical.
+
+Include bypass mode for completeness:
+It’s valuable for showing that any aberrations in split mode are truly due to the splitter, not the microscope itself.
+
+How to Structure Your Thesis Section
+Compare bypass mode (system baseline) to split mode (splitter engaged) for each wavelength.
+Discuss differences and implications for imaging quality and multi-color experiments.
+If possible, also show simultaneous excitation in split mode for registration analysis.

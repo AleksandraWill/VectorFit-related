@@ -1,0 +1,7 @@
+Segmentation Threshold
+In your parameters:
+
+params.segmentation_ROI_thr = 50; % segmentation threshold
+If this value is too high, dimmer beads will not be detected.
+Try lowering this value (e.g., 30 or 20) and rerun the segmentation.
+This will allow beads with lower intensity to be picked up.
