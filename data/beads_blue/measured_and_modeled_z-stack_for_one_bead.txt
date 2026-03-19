@@ -1,9 +1,0 @@
-measured_and_modeled_z-stack_for_one_bead_avg1_blue
-
-ibead = 1; % choose bead number
-dipshow(cat(2,allspots(:,:,:,ibead),mu(:,:,:,ibead)),'lin')
-diptruesize(1500)
-colormap parula
-
-A figure showing the measured data stack for bead #1 (left) and the modeled/fitted stack (right), side by side.
-This helps you visually assess how well the fit matches the data.
